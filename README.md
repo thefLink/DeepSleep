@@ -52,6 +52,6 @@ It may be possible to apply that metric to other C2 using a different technique 
 
 ## Credits
 
-[@waldoirc](https://twitter.com/waldoirc) for documenting large parts the technique [here](https://www.arashparsa.com/bypassing-pesieve-and-moneta-the-easiest-way-i-could-find/)               
+[@waldoirc](https://twitter.com/waldoirc) for documenting large parts of the technique [here](https://www.arashparsa.com/bypassing-pesieve-and-moneta-the-easiest-way-i-could-find/)               
 [@forrest Orr](https://twitter.com/_forrestorr) for [Moneta](https://github.com/forrest-orr/moneta)                
 [Josh Lospinoso](https://github.com/JLospinoso/) for the original [Gargoyle technique](https://github.com/JLospinoso/gargoyle)             
