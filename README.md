@@ -46,7 +46,7 @@ It is probably a good idea to make use of smaller and more generic ROPgadgets an
 ## Detection
 
 The callstack to a thread in the ```DelayExecution``` state includes unknown/tampered memory regions and additionally includes addresses to VirtualProtect().    [Hunt-Sleeping-Beacons](https://github.com/thefLink/Hunt-Sleeping-Beacons) detects this.              
-It may be possible to apply that metric to other C2 using a different technique to Sleep.
+It may be possible to apply that metric to other C2 using a different technique to wait between callbacks.
 
 ![Weird Stack](/Screens/WeirdTrace.png?raw=true "Weird Trace")
 
