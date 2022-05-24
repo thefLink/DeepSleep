@@ -2,7 +2,7 @@
 
 A variant of Gargoyle for x64 to hide memory artifacts using ROP only and PIC.          
 
-Huge thanks to [@waldoirc](https://twitter.com/waldoirc) for documenting large parts of it on his [blog](https://www.arashparsa.com/bypassing-pesieve-and-moneta-the-easiest-way-i-could-find/)          
+Huge thanks to [@waldoirc](https://twitter.com/waldoirc) for documenting large parts of this technique on his [blog](https://www.arashparsa.com/bypassing-pesieve-and-moneta-the-easiest-way-i-could-find/)          
 This implementation is different in that it does not make use of any APCs and is fully implemented as PIC.
 
 ## Description
