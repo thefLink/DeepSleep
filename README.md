@@ -29,10 +29,19 @@ Using Mingw:
 Type ```make``` and a wild DeepSleep.bin appears.     
 Alternatively use the precompiled DeepSleep.bin :-)
 
-## Future Work
+## Future Work and limitations
+
+### Future Work
 
 I might release a loader for CS or other C2 agents. Similarly to [YouMayPasser](https://github.com/waldo-irc/YouMayPasser), the loader would hook sleep using HW breakpoints
 to avoid suspicious modifications of kernel32.dll.       
+
+### Limitations
+
+This was tested on ``` 10.0.19044 N/A Build 19044```
+
+The ROPgadgets I am relying on might not exist in ntdll.dll in other versions of Windows. 
+It is probably a good idea to make use of smaller and more generic ROPgadgets and to enumerate the gadgets in more dlls than ntdll.dll.
 
 ## Detection
 
